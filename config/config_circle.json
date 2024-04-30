@@ -1,0 +1,32 @@
+{
+  "_comment0": "Display parameters",
+  "SEED": 0,
+  "N_DOFS": 4,
+  "WORLD_SZ": 1000,
+  "SCREEN_SZ": 800,
+  "DRAW_FAC": 0,
+  "DRAW_PATH": 1,  
+  
+  "_comment1": "Simulation parameters",
+  "INITIAL_FORMATION": 4,
+  "NUM_ROBOTS": 20,
+  "T_HORIZON":10 ,
+  "ROBOT_RADIUS": 2,
+  "SENSOR_RADIUS": 200,
+  "MAX_TIME": -1,
+  "MAX_SPEED": 15,
+  "TIMESTEP": 0.1,
+  "NUM_ITERS": 10,
+  
+  "_comment2": "GBP parameters",
+  "SIGMA_POSE_FIXED": 1e-15,
+  "SIGMA_POSE_END": 1e-15,
+  "SIGMA_FACTOR_DYNAMICS": 1,
+  "SIGMA_FACTOR_INTERROBOT": 1e-1,
+  "SIGMA_FACTOR_OBSTACLE": 1e-2,
+  
+  "_comment3": "Extra parameters",
+  "p1": 1e8,
+  "p2": 0.05,
+  "p3": 100
+}

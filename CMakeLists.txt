@@ -11,7 +11,7 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 # Name of Project
-project(gbp_cpp_project)
+project(gbpstack_project)
 add_compile_definitions(EIGEN_DONT_PARALLELIZE)
 find_package(OpenMP REQUIRED)
 add_subdirectory(thirdparty/raylib)
@@ -31,10 +31,10 @@ target_compile_definitions(gbp_lib PUBLIC PROJECT_DIR="${CMAKE_CURRENT_SOURCE_DI
 target_include_directories(gbp_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/inc ${CMAKE_CURRENT_SOURCE_DIR}/thirdparty)
 target_link_libraries(gbp_lib PUBLIC OpenMP::OpenMP_CXX raylib)
 
-add_executable(gbp_cpp 
+add_executable(gbpstack 
     src/main.cpp
 )
-target_link_libraries(gbp_cpp PUBLIC gbp_lib)
+target_link_libraries(gbpstack PUBLIC gbp_lib)
 
 #################################################################
 

@@ -1,3 +1,10 @@
+## THIS IS RESEARCH CODE AND IS NOT OPTIMISED
+This is the code that accompanies "A Distributed Multi-Robot Framework for Exploration, Information Acquisition and Consensus" by Aalok Patwardhan and Andrew J Davison, presented at IEEE ICRA 2024.
+
+[Paper](https://arxiv.org/abs/2310.01930)
+
+[Project Page](https://aalpatya.github.io/gbpstack/)
+
 ## Initial Setup
 Install Raylib dependencies as mentioned in https://github.com/raysan5/raylib#build-and-installation
 This will be platform dependent
